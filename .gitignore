@@ -1,0 +1,116 @@
+# Ambiente Virtual Python
+.venv/
+venv/
+env/
+ENV/
+.virtualenv/
+
+# Archivos compilados Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE y Editores
+.vscode/
+.idea/
+.sublime-text/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+
+# Variables de entorno (SECRETOS)
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+.env.test.local
+
+# Archivos de audio (pueden ser grandes)
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.m4a
+*.aac
+*.wma
+
+# Directorios temporales
+temp_audio/
+uploads/
+temp/
+tmp/
+*.tmp
+
+# Directorios de caché
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Modelos descargados (Whisper es muy grande ~1.4GB)
+models/
+*.pt
+*.pth
+model_cache/
+whisper_models/
+
+# Sistema operativo
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+Thumbs.db
+desktop.ini
+
+# Directorios de node_modules (si hay frontend local)
+node_modules/
+.pnp
+.pnp.js
+
+# Bases de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de OS
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Directorios de producción
+.frontend/
+.env.prod
+secrets/

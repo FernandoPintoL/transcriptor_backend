@@ -94,7 +94,11 @@ whisper_models/
 Thumbs.db
 desktop.ini
 
-# Directorios de node_modules (si hay frontend local)
+# Frontend (proyecto separado)
+/frontend/
+/frontend_old/
+
+# Directorios de node_modules
 node_modules/
 .pnp
 .pnp.js
